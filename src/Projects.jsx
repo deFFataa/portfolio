@@ -17,9 +17,9 @@ function Projects() {
   }, [])
 
   return (
-    <section className="sm:p-10 p-5" data-aos="fade-up">
+    <section className="sm:p-10 p-5 text-zinc-400" data-aos="fade-up">
       <div className="basis-1/2 h-100">
-        <div className="text-center text-[30px] text-zinc-200 font-bold">
+        <div className="text-center text-[30px] text-purple-600 font-bold">
           Sample Works
         </div>
         <div className="grid grid-rows-2 grid-cols-1 mt-5 lg:grid-cols-2 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 place-items-center lg:gap-4 gap-5">

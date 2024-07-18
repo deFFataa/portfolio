@@ -14,15 +14,17 @@ function Hero() {
     return (
         <section className='h-auto flex flex-wrap flex-row items-center px-5 sm:px-10 mt-6 sm:mt-0' id='Home'>
             <div className='sm:basis-1/2 h-100 sm:ps-20'>
-                <div className='text-[14px]'>Hello, I'm Isaac</div>
-                <div className='text-purple-600 font-bold text-[30px] sm:text-[35px]'>
-                    <Typewriter
-                        options={{
-                            strings: ['WEB DEVELOPER', 'UI/UX DESIGNER', 'DIGITAL ARTIST'],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                    />
+                <div className='text-[14px] text-zinc-300'>Hello, I'm Isaac</div>
+                <div className='font-bold text-[30px] sm:text-[35px]'>
+                    <span className='text-purple-600 '>
+                        <Typewriter
+                            options={{
+                                strings: ['WEB DEVELOPER', 'UI/UX DESIGNER', 'DIGITAL ARTIST'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
+                    </span>
                 </div>
                 <div className="my-5">
                     <a href={Resume} target='_blank' download={Resume} className='py-3 px-5 bg-purple-600 rounded-md text-zinc-200 mt-5 hover:bg-purple-700 hover:text-zinc-100'>Download CV</a>
