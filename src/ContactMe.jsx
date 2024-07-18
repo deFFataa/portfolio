@@ -9,7 +9,7 @@ function ContactMe() {
       }, [])
 
     return (
-        <section className="sm:p-10 p-5" id="Contact" data-aos="flip-up">
+        <section className="sm:p-10 p-5" id="Contact" data-aos="fade-down">
             <div className="basis-1/2 h-100 space-y-2">
                 <div>
                     <h1 className="text-2xl font-bold text-purple-600 sm:text-center">Contact Me</h1>
