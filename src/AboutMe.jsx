@@ -192,7 +192,7 @@ function AboutMe() {
                                     </div>
                                 </div>
                                 <div className='mt-5 text-purple-600 font-semibold'>Programming Tools</div>
-                                <div className='flex gap-5 items-center mt-3'>
+                                <div className='flex flex-wrap gap-5 items-center mt-3'>
                                     {progTools.map(icons =>
                                         <div className="tooltip" data-tip={icons.name}>
                                             <img src={icons.icon} width={30} height={30} alt="" />
