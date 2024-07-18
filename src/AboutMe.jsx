@@ -12,6 +12,8 @@ import phpIcon from './assets/php-1.svg'
 import reactIcon from './assets/react-2.svg'
 import tailwindIcon from './assets/tailwind-css-2.svg'
 import EducationInfo from './EducationInfo.jsx'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function AboutMe() {
 
@@ -118,8 +120,12 @@ function AboutMe() {
         setchangeTabToHonorsAwards(true)
     }
 
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+      }, [])
+
     return (
-        <section className='sm:px-10 px-5 mt-10' id='About'>
+        <section className='sm:px-10 px-5 mt-10' id='About' data-aos="fade-left">
             <div className='flex flex-wrap sm:flex-nowrap gap-3 justify-center'>
                 <div className=''>
                     <img src={aboutMePic} width={500} className='rounded-md' alt="" />

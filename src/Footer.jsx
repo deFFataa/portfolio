@@ -1,4 +1,4 @@
-import React from 'react'
+import {useEffect} from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin, faSquareUpwork } from "@fortawesome/free-brands-svg-icons"
 
@@ -7,8 +7,12 @@ function Footer() {
     const iconUpwork = <FontAwesomeIcon icon={faSquareUpwork} />
     const iconLinkedIn = <FontAwesomeIcon icon={faLinkedin} />
     const iconGithub = <FontAwesomeIcon icon={faGithub} />
+
+
+
     return (
-        <section className='border-t border-zinc-500 px-10 py-10'>
+
+        <section className='border-t border-zinc-500 px-10 py-10' data-aos="fade-">
             <div className='flex gap-2 flex-wrap'>
                 <div className='mr-auto'>
                     <span className='text-zinc-300 text-sm sm:text-base'>Isaac Luis Balabbo - Copyright 2024</span>

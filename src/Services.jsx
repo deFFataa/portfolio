@@ -1,12 +1,20 @@
-import React from 'react'
+import {useEffect} from 'react'
 import Card from './Card.jsx'
 import codeSvg from './assets/code.png'
 import figma from './assets/figma.png'
 import pen from './assets/pen.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Services() {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+      }, [])
+
+
     return (
-        <section className='p-10 px-5 sm:px-20' id='Services'>
+        <section className='p-10 px-5 sm:px-20' id='Services' data-aos="fade-right">
             <div className='text-center text-[30px] text-zinc-200 font-bold'>What I do?</div>
             <div className='grid place-items-center grid-cols-1 gap-5 sm:grid-cols-3 sm:gap-10 mt-4'>
                 <div>

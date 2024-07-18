@@ -1,15 +1,23 @@
+import {useEffect} from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import c2wadMockup from "./assets/images/C2WAD.jpg";
 import gradSysMockup from "./assets/images/GradSys.jpg";
 import BrainScanMockup from "./assets/images/BrainScan.jpg";
 import PixelPositionsMockup from "./assets/images/Pixel Positions.jpg";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Projects() {
+
+  
   const iconGithub = <FontAwesomeIcon icon={faGithub} />;
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
 
   return (
-    <section className="sm:p-10 p-5">
+    <section className="sm:p-10 p-5" data-aos="fade-up">
       <div className="basis-1/2 h-100">
         <div className="text-center text-[30px] text-zinc-200 font-bold">
           Sample Works
