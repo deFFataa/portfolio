@@ -45,7 +45,7 @@ function Navbar() {
     <section className="sticky top-0 z-9999" style={{ backgroundColor: backgroundColor }}>
       <nav
         style={{ backgroundColor: backgroundColor }}
-        className="w-100 lg:bg-[#202024] md:bg-[#6f6ff9] shadow-md transition ease-in h-[80px] flex items-center justify-between px-10"
+        className="w-100 lg:bg-[#202024] md:bg-[#6f6ff9] shadow-md transition ease-in h-[80px] flex items-center justify-between px-5 sm:px-10"
       >
         <div className="font-extrabold text-zinc-100">IB.</div>
         {/* Responsive Burger Menu */}

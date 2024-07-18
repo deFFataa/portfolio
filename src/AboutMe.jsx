@@ -132,7 +132,7 @@ function AboutMe() {
                             <div className='space-y-3'>
                                 {isMobile ? (
                                     <div className='mt-6'>
-                                        <select onChange={(e) => handleTabChange(e.target.value)} className="select-about p-3 bg-purple-600 rounded-md text-zinc-100">
+                                        <select onChange={(e) => handleTabChange(e.target.value)} className="select-about p-3 bg-purple-600 rounded-md w-full text-zinc-100">
                                             <option value="education">Education</option>
                                             <option value="skills">Skills</option>
                                             <option value="certifications">Certifications</option>
