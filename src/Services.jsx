@@ -6,24 +6,31 @@ import pen from './assets/pen.png'
 
 function Services() {
     return (
-        <section className='px-10 '>
+        <section className='p-10 px-10 sm:px-20' id='Services'>
             <div className='text-center text-[30px] text-zinc-200 font-bold'>What I do?</div>
-            <div className='flex flex-row justify-center items-center gap-10 mt-4'>
-                <Card
-                    icon={codeSvg}
-                    title="DEVELOPMENT"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus egestas orci, at eleifend nisi ultricies ac. Etiam lobortis, nisl nec ullamcorper dictum, sem tellus placerat erat, vel hendrerit justo tortor eu enim."
-                />
-                <Card
-                    icon={figma}
-                    title="UI/UX"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus egestas orci, at eleifend nisi ultricies ac. Etiam lobortis, nisl nec ullamcorper dictum, sem tellus placerat erat, vel hendrerit justo tortor eu enim."
-                />
-                <Card
-                    icon={pen}
-                    title="DIGITAL ART"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus egestas orci, at eleifend nisi ultricies ac. Etiam lobortis, nisl nec ullamcorper dictum, sem tellus placerat erat, vel hendrerit justo tortor eu enim."
-                />
+            <div className='grid place-items-center grid-cols-1 gap-5 sm:grid-cols-3 sm:gap-10 mt-4'>
+                <div>
+                    <Card
+                        icon={codeSvg}
+                        title="DEVELOPMENT"
+                        description="From attracting clients to displaying services and creating online stores, providing comprehensive web development solutions tailored to enhance your online presence and drive business growth."
+                    />
+                </div>
+                <div>
+                    <Card
+                        icon={figma}
+                        title="UI/UX"
+                        description="Creating intuitive and visually appealing interfaces with a focus on user-centric designs that enhance engagement and ensure smooth interaction."
+                    />
+                </div>
+                <div>
+                    <Card
+                        icon={pen}
+                        title="DIGITAL ART"
+                        description="Offering stunning digital art services that bring creativity and innovation to your projects. From illustrations to digital media, delivering unique and captivating visuals."
+                    />
+                </div>
+
             </div>
         </section>
     )
