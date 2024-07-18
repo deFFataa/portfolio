@@ -119,7 +119,7 @@ function AboutMe() {
     }
 
     return (
-        <section className='px-10 mt-10' id='About'>
+        <section className='sm:px-10 px-5 mt-10' id='About'>
             <div className='flex flex-wrap sm:flex-nowrap gap-3 justify-center'>
                 <div className=''>
                     <img src={aboutMePic} width={500} className='rounded-md' alt="" />

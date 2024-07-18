@@ -9,9 +9,9 @@ function Footer() {
     const iconGithub = <FontAwesomeIcon icon={faGithub} />
     return (
         <section className='border-t border-zinc-500 px-10 py-10'>
-            <div className='flex flex-wrap'>
+            <div className='flex gap-2 flex-wrap'>
                 <div className='mr-auto'>
-                    <span className='text-zinc-300'>Isaac Luis Balabbo - Copyright 2024</span>
+                    <span className='text-zinc-300 text-sm sm:text-base'>Isaac Luis Balabbo - Copyright 2024</span>
                 </div>
                 <div className='flex gap-2'>
                     <a href="https://github.com/deFFataa" className='text-zinc-300 text-lg hover:text-purple-400'>

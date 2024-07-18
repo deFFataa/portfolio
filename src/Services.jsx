@@ -6,7 +6,7 @@ import pen from './assets/pen.png'
 
 function Services() {
     return (
-        <section className='p-10 px-10 sm:px-20' id='Services'>
+        <section className='p-10 px-5 sm:px-20' id='Services'>
             <div className='text-center text-[30px] text-zinc-200 font-bold'>What I do?</div>
             <div className='grid place-items-center grid-cols-1 gap-5 sm:grid-cols-3 sm:gap-10 mt-4'>
                 <div>

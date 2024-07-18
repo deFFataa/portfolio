@@ -12,7 +12,7 @@ function Hero() {
     const iconGithub = <FontAwesomeIcon icon={faGithub} />
 
     return (
-        <section className='h-auto flex flex-wrap flex-row items-center px-10 mt-6 sm:mt-0' id='Home'>
+        <section className='h-auto flex flex-wrap flex-row items-center px-5 sm:px-10 mt-6 sm:mt-0' id='Home'>
             <div className='sm:basis-1/2 h-100 sm:ps-20'>
                 <div className='text-[14px]'>Hello, I'm Isaac</div>
                 <div className='text-purple-600 font-bold text-[30px] sm:text-[35px]'>

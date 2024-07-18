@@ -9,7 +9,7 @@ function Projects() {
   const iconGithub = <FontAwesomeIcon icon={faGithub} />;
 
   return (
-    <section className="p-10">
+    <section className="sm:p-10 p-5">
       <div className="basis-1/2 h-100">
         <div className="text-center text-[30px] text-zinc-200 font-bold">
           Sample Works
